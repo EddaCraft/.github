@@ -1,4 +1,4 @@
-# [ ■ ] EddaCraft
+<img src="logo.png" alt="EddaCraft" height="60">
 
 > **STATUS:** SYSTEM_ACTIVE  
 > **MODE:** DETERMINISTIC  
