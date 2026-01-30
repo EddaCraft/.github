@@ -37,12 +37,12 @@ philosophy:
 
 We develop shared standards in the open to prevent vendor lock-in for AI governance.
 
-#### 1. [`anvil-plan-spec`](https://www.google.com/search?q=https://github.com/EddaCraft/anvil-plan-spec)
+#### 1. [`anvil-plan-spec`](https://github.com/EddaCraft/anvil-plan-spec)
 
 **The Protocol for Intent.**
 A declarative specification for planning, intent, and constraint in AI-assisted work. It allows you to define *what* the agent should do, and *what* it is forbidden from doing, in a format that survives the session.
 
-#### 2. [`kindling`](https://www.google.com/search?q=https://github.com/EddaCraft/kindling)
+#### 2. [`kindling`](https://github.com/EddaCraft/kindling)
 
 **The Context Primitive.**
 Small, composable memory structures for agentic workflows. "Don't just dump logs; structure the heat."
