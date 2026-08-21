@@ -1,56 +1,53 @@
-<img src="logo.png" alt="EddaCraft" height="60">
+<p align="center">
+  <img src="https://raw.githubusercontent.com/eddacraft/eddacraft/main/assets/logos/eddacraft-white-on-void.svg" alt="eddacraft" width="96" />
+</p>
 
-> **STATUS:** SYSTEM_ACTIVE  
-> **MODE:** DETERMINISTIC  
-> **SCOPE:** GOVERNANCE / MEMORY / INFRASTRUCTURE
+<h1 align="center">eddacraft</h1>
 
-### [ = ] THE_MISSION
+<p align="center">
+  technology that makes AI-assisted work independently trustworthy
+</p>
 
-**EddaCraft is the deterministic layer for non-deterministic work.**
+---
 
-We build infrastructure that forces AI-assisted development to behave like traditional engineering: **predictable, governed, and reversible.** We do not build "copilots"; we build the flight recorder and the autopilot limits.
+## Products
 
-| COMPONENT | TYPE | STATUS | FUNCTION |
-| :--- | :--- | :--- | :--- |
-| **`anvil`** | CLI Tool | `[BETA]` | Local-first governance & policy enforcement. |
-| **`edda`** | Platform | `[DEV]` | Institutional memory & context graph. |
-| **`kindling`** | Library | `[OPEN]` | Semantic primitives for agent context. |
+### [anvil](https://github.com/eddacraft/anvil)
 
-### [ ≡ ] SYSTEM_CAPABILITIES
+The independent Decision Integrity layer for AI-assisted software. anvil
+gives agents a graph of the codebase, then gates their edits against
+repo-versioned policy **before they land** — local, deterministic, and
+agent-agnostic.
 
-We govern the **output**, not the agent. Whether your team uses Cursor, Copilot, or Claude, our stack ensures the result meets your engineering standards before it enters the repo.
+Closed beta. Invitation required.
 
-```
-# THE EDDACRAFT STANDARD
-governance:
-  strategy: local-first
-  privacy: strict (no code transit)
-  policy: rego (OPA compatible)
-  
-philosophy:
-  - "Authority precedes action."
-  - "Memory before motion."
-  - "Provenance over velocity."
-```
+→ [eddacraft.ai](https://eddacraft.ai) · [docs](https://docs.eddacraft.ai/anvil/overview) · [install](https://install.eddacraft.ai)
 
-### [ * ] OPEN_SOURCE_PROTOCOLS
+---
 
-We develop shared standards in the open to prevent vendor lock-in for AI governance.
+## Open source
 
-#### 1. [`anvil-plan-spec`](https://github.com/EddaCraft/anvil-plan-spec)
+### [kindling](https://github.com/eddacraft/kindling)
 
-**The Protocol for Intent.**
-A declarative specification for planning, intent, and constraint in AI-assisted work. It allows you to define *what* the agent should do, and *what* it is forbidden from doing, in a format that survives the session.
+Local memory for AI-assisted development. Captures tool calls, edits,
+commands, and decisions in SQLite on your machine. Deterministic search,
+no cloud. Apache 2.0.
 
-#### 2. [`kindling`](https://github.com/EddaCraft/kindling)
+### [anvil-plan-spec](https://github.com/eddacraft/anvil-plan-spec)
 
-**The Context Primitive.**
-Small, composable memory structures for agentic workflows. "Don't just dump logs; structure the heat."
+Open, markdown-native planning spec: plan the outcome, authorise the
+work, let the implementation adapt. Apache 2.0.
 
-### [ > ] CONNECT
+### [eddacraft-tui](https://github.com/eddacraft/eddacraft-tui)
 
-* **Docs:** [docs.eddacraft.ai](https://eddacraft.ai)
-* **Waitlist:** `npm install -g @anvil/cli` (Coming Soon)
-* **Contact:** `support@eddacraft.ai`
+Themed Ratatui component library — widgets, streaming text layout, and
+JSON-driven terminal UI. Apache 2.0.
 
-> *"If velocity obscures lineage, velocity loses."*
+---
+
+## About
+
+eddacraft, inc. builds infrastructure so organisations can trust
+AI-assisted work. anvil is the first product.
+
+[eddacraft.ai](https://eddacraft.ai) · [docs.eddacraft.ai](https://docs.eddacraft.ai) · [hello@eddacraft.ai](mailto:hello@eddacraft.ai)
